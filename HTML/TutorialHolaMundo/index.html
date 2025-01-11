@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mi Primera Web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hola Bits</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Curso 2</td>
+                <td>$9.99</td>
+            </tr>
+            <tr>
+                <td>Curso largo 3</td>
+                <td>$29.99</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: $49.80</td>
+        </tfoot>
+    </table>
+
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">SubElemento 1</li>
+                <li style="list-style-type: lower-alpha;">SubElemento 2</li>
+                <li style="list-style-type: lower-alpha;">SubElemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
+
+
+
+    <!-- Este es un Comentario-->
+    <h1>Hola Mundo</h1>
+    <!-- Span se usa para delimitar una parte del codigo -->
+    <p> Este texto es mucho mas largo y mas <span style="color:blue">complejo</span></p>. <br> Tambien se pueden hacer saltos de linea.
+
+    <a href="https://www.google.com/">Tambien hay enlaces.</a>
+    <a target="_blank" href="https://www.google.com/">O enlaces en otro tab.</a>
+    <img src="img/exampleImg.jpg" width="400"/>
+    <form action="/formulario" method="get">
+        <label for="nombre">Nombre</label>
+        <input value="Alex" type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="Ap1" type=text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea rows="10" cols="100" id="comentario" placeholder="Ingrese comentario" name="comentario">Valor por defecto</textarea>
+        <br>
+        <input type="submit">
+        <button type="button">Tipo Boton</button>
+        <button type="reset">Tipo Reset</button>
+        <button type="submit">Tipo Submit</button>
+    </form>
+</body>
+</html>
